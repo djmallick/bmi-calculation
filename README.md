@@ -1,2 +1,2 @@
 # bmi-calculation
-This is a simple bmi calculation website using flask
+BMI(Body Mass Index) calculation page development using flask
