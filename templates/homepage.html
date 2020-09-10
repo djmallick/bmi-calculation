@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang = "en">
+    <title>Check your BMI</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href = "../static/style.css" rel = "stylesheet">
+    </head>
+    <body>
+        <div class = "container">
+            <h1> BMI Calculator</h1>
+            <h3> Please Enter the following details</h3>
+            
+
+            <form action = "{{url_for('success')}}" method = "POST">
+                <h5 id = "others">Enter your height</h5>
+                <input id = "ft" title="height" placeholder="Feet" type = "number" min = "1", max = "10" name = "feet" required>
+                <input id = "inch" title="height" placeholder="Inch" type = "number" min = "0", max = "11" name = "inch" required> <br>
+                <h5 id = "others">Enter your weight</h5>
+                <input id = "kg" title="weight" placeholder="Kg" type = "number" step="0.1" min = "5", max = "500" name = "weight" required> <br><br>
+                <h5 id = "gender">You are</h5>
+                <input id = "check" TYPE="Radio" Name="gender" Value="Male" required>Male
+                <input id = "check" TYPE="Radio" Name="gender" Value="Female" required>Female<br><br>
+                <button type = "submit"> Calculate</button>
+
+            </form>
+
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,167 @@
+html, body{
+    height: 100%;
+    margin:0;
+    background-image: url("img.jpg");
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    /* background-color: #006666; */
+    color: #e6ffff;
+    text-align: center;
+    overflow: hidden
+}
+
+
+.container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: bisque;
+    margin-top: 60px;
+    transition: all 0.2s ease-in;
+    text-shadow: 2px 2px #414242
+
+}
+
+.msg {
+
+    font-family: unset;
+    font-size: 15px;
+    color: lavender;
+    transition: all 2s ease-out;
+}
+
+.success1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: lemonchiffon;
+    margin-top: 100px;
+    transition: all 1s ease-out;
+    margin-bottom: 10px;
+}
+
+.success2 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: lemonchiffon;
+    margin-top: 14px;
+    transition: all 1s ease-out;
+    margin-bottom: 10px;
+}
+
+.success3 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: lavender;
+    margin-top: 14px;
+    transition: all 1s ease-out;
+    margin-bottom: 10px;
+}
+
+.success4 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: lavender;
+    margin-top: 14px;
+    transition: all 1s ease-out;
+    margin-bottom: 10px;
+}
+
+.status {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: lavender;
+    margin-top: 5px;
+    transition: all 1s ease-out;
+    margin-bottom: 50px;
+}
+
+
+
+.container h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffffff;
+    text-shadow: 2px 2px #414242;
+
+}
+
+.container h5#others{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffffff;
+    text-shadow: 2px 2px #414242;
+    margin-bottom: 4px;
+}
+
+.container h5#gender{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffffff;
+    text-shadow: 2px 2px #414242;
+    margin-bottom: 4px;
+    margin-top: 2px
+}
+
+.container form{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container input#ft {
+    width: 70px; 
+    height: 22px;
+    font-size: 15px;
+    border-radius: 0.5em;
+    margin: 3px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.container input#inch {
+    width: 70px; 
+    height: 22px;
+    font-size: 15px;
+    border-radius: 0.5em;
+    margin: 3px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.container input#kg {
+    width: 64px; 
+    height: 22px;
+    font-size: 15px;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 0.5em;
+    transition: all 0.5s ease-in-out;
+}
+
+.container input#check{
+    transition: all 0.5s ease-in-out;
+    margin-left: 20px;
+}
+
+
+.container button{
+    margin: 4px;
+    width: 100px; 
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 1em;
+    color: rgb(27, 29, 29);
+
+}
